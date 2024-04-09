@@ -48,5 +48,12 @@ public class Queues {
         my_queue.clear();
         System.out.println("Queue after Cleared: " + my_queue);
 
+
+        // USAGE :
+        /*
+         * Keyboard Buffer/Data
+         * Printer Queue (Print Jobs Should BE completed in Order)
+         * Used in LinkedList, PriorityQueues, Breadth-first Search (explores the vertices of a graph level by level)
+        */
     }
 }
