@@ -3,7 +3,7 @@
 
 // The Queue Data Structure
 // works on FIFO = First-in First-Out
-// Designed for Holding Elements Prior to Processing Linear Data search
+// Designed for Holding Elements Prior to Processing Linear Data Structure
 
 import java.util.Queue;
 import java.util.LinkedList;
