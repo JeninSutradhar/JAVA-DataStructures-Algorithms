@@ -44,4 +44,11 @@ public class BubbleSort {
             }
         }
     }
+
+    /*
+     * Bubble sort is easy to understand and implement.
+     * It does not require any additional memory space.
+     * It is a stable sorting algorithm, meaning that elements with the same key
+     * value maintain their relative order in the sorted output.
+     */
 }
