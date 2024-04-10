@@ -19,7 +19,7 @@ public class SelectionSort {
      */
     public static void main(String[] args) {
         // Initialize the array with unsorted elements
-        int[] array = {9, 5, 7, 3, 7, 1};
+        int[] array = {9, 5, 7, 3, 7, 1, 5, 7, 3, 7, 2, 5, 7, 1};
 
         // Call selectionSort method to sort the array
         selectionSort(array);
