@@ -1,51 +1,47 @@
 package Sorting;
 
+// Bubble Sort
+/*
+ * Bubble Sort is the simplest sorting algorithm that works by repeatedly 
+ * swapping the adjacent elements if they are in the wrong order
+*/
+
+/**
+ * BubbleSort
+ * This class implements the bubble sort algorithm to sort an array of integers.
+ */
 public class BubbleSort {
-
     public static void main(String[] args) {
-        int[] array = {64, 34, 25, 12, 22, 11, 90};
+        // Initialize the array with unsorted elements
+        int[] array = { 9, 5, 7, 3, 7, 2, 5, 7, 1 };
 
-        System.out.println("Original array:");
-        printArray(array);
-
-        // Sorting the array using Bubble Sort
+        // Call bubbleSort method to sort the array
         bubbleSort(array);
 
-        System.out.println("\nSorted array:");
-        printArray(array);
+        // Print the sorted array
+        for (int i : array) {
+            System.out.print(i + " "); // Changed System.err to System.out, and added space for clarity
+        }
     }
 
     /**
-     * Sorts an array using Bubble Sort algorithm.
-     *
-     * @param array The array to be sorted.
+     * Sorts an array using the bubble sort algorithm.
+     * 
+     * @param array The array to be sorted
      */
-    public static void bubbleSort(int[] array) {
-        int n = array.length;
-
-        // Traverse through all array elements
-        for (int i = 0; i < n - 1; i++) {
-            // Last i elements are already in place, so we don't need to check them again
-            for (int j = 0; j < n - i - 1; j++) {
-                // Swap if the element found is greater than the next element
-                if (array[j] > array[j + 1]) {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+    public static void bubbleSort(int array[]) {
+        // Loop through each element of the array
+        for (int i = 0; i < array.length; i++) {
+            // Iterate through the unsorted part of the array
+            // (last i elements are already sorted)
+            for (int x = 0; x < array.length - i - 1; x++) {
+                // Swap adjacent elements if they are in the wrong order
+                if (array[x] > array[x + 1]) {
+                    int temp = array[x];
+                    array[x] = array[x + 1];
+                    array[x + 1] = temp;
                 }
             }
         }
-    }
-
-    /**
-     * Utility method to print an array.
-     *
-     * @param array The array to be printed.
-     */
-    public static void printArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
     }
 }
