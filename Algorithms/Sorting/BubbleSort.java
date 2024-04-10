@@ -1,5 +1,5 @@
 package Sorting;
-
+// https://github.com/JeninSutradhar/JAVA-DataStructures-Algorithms
 // Bubble Sort
 /*
  * Bubble Sort is the simplest sorting algorithm that works by repeatedly 
@@ -9,7 +9,7 @@ package Sorting;
 /**
  * BubbleSort
  * This class implements the bubble sort algorithm to sort an array of integers.
- */
+*/
 public class BubbleSort {
     public static void main(String[] args) {
         // Initialize the array with unsorted elements
@@ -28,7 +28,7 @@ public class BubbleSort {
      * Sorts an array using the bubble sort algorithm.
      * 
      * @param array The array to be sorted
-     */
+    */
     public static void bubbleSort(int array[]) {
         // Loop through each element of the array
         for (int i = 0; i < array.length; i++) {
@@ -50,5 +50,5 @@ public class BubbleSort {
      * It does not require any additional memory space.
      * It is a stable sorting algorithm, meaning that elements with the same key
      * value maintain their relative order in the sorted output.
-     */
+    */
 }
