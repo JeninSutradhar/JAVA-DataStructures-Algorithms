@@ -37,6 +37,7 @@ public class Stacks {
         }
 
         // Copying Stack: Create a copy of the stack.
+        @SuppressWarnings("unchecked")
         Stack<String> copyStack = (Stack<String>) stack.clone();
         System.out.println("Copy of stack: " + copyStack);
 
