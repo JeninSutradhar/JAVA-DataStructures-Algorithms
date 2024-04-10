@@ -140,4 +140,10 @@ public class LinkedLists {
         System.out.println("Tasks after inserting 'New Task' at position 1:");
         taskList.display();
     }
+        // USES :
+    /*
+     * implemeting stacks/ Queues
+     * GPS navigation
+     * music Playlist (Shruffling songs)
+     */
 }

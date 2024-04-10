@@ -73,4 +73,11 @@ public class LinkedListMethod2 {
 
         System.out.println(my_list);
     }
+
+    // USES :
+    /*
+     * implemeting stacks/ Queues
+     * GPS navigation
+     * music Playlist (Shruffling songs)
+     */
 }
