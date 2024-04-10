@@ -1,5 +1,6 @@
-package Sorting;
 
+package Sorting;
+// SELECTION SORTING ALGORITHM
 /*
 * Selection sort is a simple and efficient sorting algorithm that 
 * works by repeatedly selecting the smallest (or largest) element from the
