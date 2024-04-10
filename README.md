@@ -28,7 +28,6 @@ The following data structures are implemented in this repository:
 - Heap
 - Trie
 - ...
-(Add more data structures as you implement them)
 
 Each data structure is organized into its own directory and includes the implementation code, along with explanations and examples of usage.
 
