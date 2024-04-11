@@ -1,5 +1,4 @@
 
-package Sorting;
 // SELECTION SORTING ALGORITHM
 /*
 * Selection sort is a simple and efficient sorting algorithm that 

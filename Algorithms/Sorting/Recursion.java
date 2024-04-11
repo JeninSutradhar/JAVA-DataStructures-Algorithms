@@ -1,4 +1,3 @@
-package Sorting;
 // https://github.com/JeninSutradhar/JAVA-DataStructures-Algorithms
 
 // Recursion :  - When a thing is Defined in terms of itself.

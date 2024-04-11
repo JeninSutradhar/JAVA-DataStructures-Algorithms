@@ -10,7 +10,6 @@
 //                            !! Less Steps than Bubble Sort !!
 
 
-package Sorting;
 // This class implements the Insertion Sort algorithm in Java
 public class InsertionSort {
     public static void main(String[] args) {
