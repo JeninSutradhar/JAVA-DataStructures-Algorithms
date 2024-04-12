@@ -2,10 +2,12 @@
 // Hash Table Data Structure in Java
 /*
 * A hash table, also known as a hash map, is a fundamental data structure 
-* that offers efficient insertion, deletion, and retrieval operations. 
+* that offers efficient insertion, deletion, and retrieval operations.
+
 * It utilizes a hashing function to map keys to indexes within an array, 
 * allowing for constant-time access in ideal scenarios. Hash tables are commonly used 
 * to store key-value pairs, providing a fast and effective way to associate data. 
+ 
 * They are particularly useful in scenarios where quick lookups are required, 
 * such as in implementing associative arrays, caching systems, and symbol tables. 
 */
