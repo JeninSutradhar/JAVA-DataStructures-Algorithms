@@ -9,7 +9,7 @@ import java.util.*;
  * Each Linked List has a unique node at the Head
  * All adjecent Neighbours to that node are added to that node's Linked List
  * 
- * @author Jenin Sutradhar
+ * @author https://github.com/JeninSutradhar
  */
 public class Graph {
     
