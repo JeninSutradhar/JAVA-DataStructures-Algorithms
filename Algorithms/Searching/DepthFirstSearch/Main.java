@@ -36,8 +36,6 @@ public class Main {
         graph.addEdge(2, 3);
         graph.addEdge(3, 4);
         graph.addEdge(4, 2);
-
-        graph.print();
         
         graph.depthFirstSearch(4);
         /*
