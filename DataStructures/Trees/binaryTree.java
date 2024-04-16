@@ -4,13 +4,13 @@ package Trees;
  * =================================================
  * 
  * Trees are a common data structure used in many applications.
- * A tree is a nonlinear data structure that consists of nodes,
+ * A tree is a non-linear data structure that consists of nodes,
  * where each node has at most two children.
  * Each node in the tree has some data associated with it,
  * and each node points to its children.
  * 
  * In a Binary Tree, each Node can have at most 2 children.
- * A Binary Tree can be either full, complete or skewed.
+ * [ A Binary Tree can be either full, complete or skewed ]
  * If all nodes in a full binary tree are either empty or have two children,
  * then it is full.
  * If all levels of a binary tree except possibly the last are fully filled,
