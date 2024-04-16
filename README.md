@@ -51,7 +51,6 @@ The following algorithms are implemented in this repository:
 ```bash
 .
 ├── Algorithms
-│   ├── Graph
 │   ├── Searching
 │   │   ├── BinarySearch.java
 │   │   ├── BreadthFirstSearch
