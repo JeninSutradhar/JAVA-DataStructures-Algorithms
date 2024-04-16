@@ -30,7 +30,7 @@ The following data structures are implemented in this repository:
 - Graph
 - Hash Table
 - Heap
-- Trie
+- Trees
 - ...
 
 Each data structure is organized into its own directory and includes the implementation code, along with explanations and examples of usage.
@@ -45,14 +45,77 @@ The following algorithms are implemented in this repository:
 - Graph Algorithms (Dijkstra's Algorithm, Prim's Algorithm, Kruskal's Algorithm, etc.)
 - String Algorithms (String Matching, String Parsing, etc.)
 - ...
-(Add more algorithms as you implement them)
 
-Similar to data structures, each algorithm is organized into its own directory and includes the implementation code, explanations, and examples.
+
+## Project Structure 
+```bash
+.
+├── Algorithms
+│   ├── Graph
+│   ├── Searching
+│   │   ├── BinarySearch.java
+│   │   ├── BreadthFirstSearch
+│   │   │   ├── Graph.java
+│   │   │   ├── Main.java
+│   │   │   └── Node.java
+│   │   ├── DepthFirstSearch
+│   │   │   ├── Graph.java
+│   │   │   ├── Main.java
+│   │   │   └── Node.java
+│   │   ├── InterpolationSearch.java
+│   │   ├── LinearSearch.java
+│   │   └── SimpleBinarySearch.java
+│   └── Sorting
+│       ├── BubbleSort.java
+│       ├── HeapSort.java
+│       ├── InsertionSort.java
+│       ├── MergeSort.java
+│       ├── PigeonholeSort.java
+│       ├── QuickSort.java
+│       ├── Recursion.java
+│       ├── SelectionSort.java
+│       └── TournamentSort.java
+├── DataStructures
+│   ├── DynamicArray.java
+│   ├── Graph
+│   │   ├── AdjecencyList
+│   │   │   ├── Graph.java
+│   │   │   ├── Main.java
+│   │   │   └── Node.java
+│   │   └── AdjecencyMatrix
+│   │       ├── Graph.java
+│   │       ├── Main.java
+│   │       └── Node.java
+│   ├── LinkedLists.java
+│   ├── PriorityQueues.java
+│   ├── Queues.java
+│   ├── Stacks.java
+│   ├── Trees
+│   │   └── BinarySearchTree
+│   │       ├── Main.java
+│   │       ├── Node.java
+│   │       └── binarySearchTree.java
+│   └── hashtable.java
+├── LICENSE
+├── Misc
+│   ├── LinkedListMethod2.java
+│   ├── LinkedvsArrayList.java
+│   ├── PigeonholeSort.java
+│   └── TournamentSort.java
+├── README.md
+├── SECURITY.md
+└── TimeComplexity & Big(O)
+    ├── Complexity.java
+    └── cheatsheet.png
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this repository, feel free to submit a pull request with your changes. Please ensure that your code follows the existing style and conventions, and include appropriate documentation and test cases.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
