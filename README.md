@@ -3,8 +3,6 @@
 This repository contains implementations of various data structures and algorithms in different programming languages. It serves as a reference and learning resource for understanding fundamental concepts in computer science.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/JeninSutradhar/JAVA-DataStructures-Algorithms)
-![commits](https://img.shields.io/github/commits-since/JeninSutradhar/JAVA-DataStructures-Algorithms)
-
 ## Contents
 
 1. [Introduction](#introduction)
