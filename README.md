@@ -10,7 +10,7 @@ This repository contains implementations of various data structures and algorith
 3. [Algorithms](#algorithms)
 4. [Contributing](#contributing)
 5. [License](#license)
-
+6. [Project Structure](#project-structure)
 ## Introduction
 
 Understanding data structures and algorithms is essential for every software engineer and computer scientist. This repository aims to provide implementations of commonly used data structures and algorithms in a variety of programming languages, along with explanations and examples.
