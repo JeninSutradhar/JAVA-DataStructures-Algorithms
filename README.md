@@ -1,6 +1,3 @@
-"🚧 Work in Progress 🚧"
-- This repository is currently under development as I continue to add new data structures and algorithms. Contributions and feedback are welcome!"
-
 # Data Structures and Algorithms
 
 This repository contains implementations of various data structures and algorithms in different programming languages. It serves as a reference and learning resource for understanding fundamental concepts in computer science.
