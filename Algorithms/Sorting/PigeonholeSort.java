@@ -4,8 +4,7 @@
 /*
  * The Pigeonhole Sort algorithm is a sorting algorithm 
  * that is based on the principle of the Pigeonhole Principle.
-*/
-/*
+
  * this principle suggests that if we have 'n' elements 
  * to be sorted and the range of possible values is relatively small 
  * compared to the number of elements, then there must be 
